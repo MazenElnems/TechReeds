@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechReeds", "TechReeds.csproj", "{DCCE27EB-3621-403F-BBF2-677371978ECB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechReeds.Presentation", "TechReeds.Presentation.csproj", "{DCCE27EB-3621-403F-BBF2-677371978ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechReeds.DataAccess", "..\TechReeds.DataAccess\TechReeds.DataAccess.csproj", "{97E2B56A-F506-427D-A089-3E41535D4387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechReeds.BusinessLogic", "..\TechReeds.BusinessLogic\TechReeds.BusinessLogic.csproj", "{A3141DCA-0CE8-4909-A068-95FCC86C683E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DCCE27EB-3621-403F-BBF2-677371978ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCCE27EB-3621-403F-BBF2-677371978ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCCE27EB-3621-403F-BBF2-677371978ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E2B56A-F506-427D-A089-3E41535D4387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E2B56A-F506-427D-A089-3E41535D4387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E2B56A-F506-427D-A089-3E41535D4387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E2B56A-F506-427D-A089-3E41535D4387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3141DCA-0CE8-4909-A068-95FCC86C683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3141DCA-0CE8-4909-A068-95FCC86C683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3141DCA-0CE8-4909-A068-95FCC86C683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3141DCA-0CE8-4909-A068-95FCC86C683E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
